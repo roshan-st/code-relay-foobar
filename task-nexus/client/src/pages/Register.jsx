@@ -15,6 +15,7 @@ export default function Register() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        console.log("REGISTER CLICKED");
         setError('');
 
         if (password != confirmPassword) {
